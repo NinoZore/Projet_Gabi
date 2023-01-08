@@ -6,11 +6,11 @@ Connectivité :
 
 Pot :
 - Mesures toutes les 30mn Temp, hygro, luminosité
-- sur batterie (durée de charge ?)
+- sur batterie (durée de charge ?), rechargeable
 - 
 
 Hub :
 - IHM écran
-- sur batterie (durée de charge ?)
+- sur batterie (durée de charge ?), rechargeable
 - connecté à internet
 - connecté aux pots et à internet en wifi
