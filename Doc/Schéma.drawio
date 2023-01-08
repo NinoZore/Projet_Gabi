@@ -23,7 +23,7 @@
                     <mxGeometry x="10" y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Slave" style="swimlane;" vertex="1" parent="1">
-                    <mxGeometry x="228" y="120" width="395" height="380" as="geometry"/>
+                    <mxGeometry x="228" y="120" width="562" height="380" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="3" source="4" target="6">
                     <mxGeometry relative="1" as="geometry"/>
@@ -83,6 +83,32 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="142" y="210" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="3" source="29" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="type c" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="3">
+                    <mxGeometry x="292" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="3" source="30" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Recharge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="3">
+                    <mxGeometry x="292" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="LED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="342" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" edge="1" parent="3" source="34" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="492" y="110"/>
+                            <mxPoint x="252" y="110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Interface Programmation par gpio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="432" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
