@@ -2,8 +2,13 @@
 
 #include <ArduinoOTA.h>
 
-const char* ssid = "identité_du_routeur";  // Généralement, "routeur" = "box"
-const char* password = "mot_de_passe_du_routeur";
+const char* ssid = "GabiGarden";  // Généralement, "routeur" = "box"
+const char* password = "iL0VEfl0werWH0canSPEAK0urLANGUAGE";
+// 0-4095
+int capteurHygro = 2000;
+int capteurTempérature = 3000;
+int capteurLuminosité = 1000;
+int capteurBatterie = 4000;
 
 void setup() 
 {
